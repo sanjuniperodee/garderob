@@ -8,6 +8,7 @@ import PostJobSteps from "./components/PostJobSteps";
 import PostBoxForm from "./components/PostBoxForm";
 import MenuToggler from "../../MenuToggler";
 import DashboardCandidatesSidebar from "@/components/header/DashboardCandidatesSidebar";
+import LogoUpload from "@/components/dashboard-pages/candidates-dashboard/my-profile/components/my-profile/LogoUpload";
 
 const index = () => {
   return (
@@ -42,7 +43,7 @@ const index = () => {
                   <div className="widget-title">
                     <h4>Добавить одежду</h4>
                   </div>
-
+                    <LogoUpload />
                   <div className="widget-content">
                     {/* End job steps form */}
                     <PostBoxForm />
