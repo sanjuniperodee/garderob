@@ -16,7 +16,7 @@ const index = () => {
               <div className="title-box">
                 <h3>
                   Тут более <span className="colored">10 тысяч</span> пользователей продают одежду
-                  <br /> В хорошем качестве!
+                  <br /> и подбирают образы на каждый день!
                 </h3>
               </div>
 
