@@ -63,10 +63,10 @@ const DefaulHeader2 = () => {
               Вход / Регистрация
             </a>
             <Link
-              href="/employers-dashboard/post-jobs"
+              href="/candidates-dashboard/applied-jobs"
               className="theme-btn btn-style-one"
             >
-              Создать заявку
+              Создать образ
             </Link>
           </div>
         </div>

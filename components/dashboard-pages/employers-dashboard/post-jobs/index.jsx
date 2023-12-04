@@ -7,6 +7,7 @@ import CopyrightFooter from "../../CopyrightFooter";
 import PostJobSteps from "./components/PostJobSteps";
 import PostBoxForm from "./components/PostBoxForm";
 import MenuToggler from "../../MenuToggler";
+import DashboardCandidatesSidebar from "@/components/header/DashboardCandidatesSidebar";
 
 const index = () => {
   return (
@@ -23,14 +24,12 @@ const index = () => {
       <MobileMenu />
       {/* End MobileMenu */}
 
-      <DashboardEmployerSidebar />
+      <DashboardCandidatesSidebar />
       {/* <!-- End User Sidebar Menu --> */}
 
       {/* <!-- Dashboard --> */}
       <section className="user-dashboard">
         <div className="dashboard-outer">
-          <BreadCrumb title="Post a New Job!" />
-          {/* breadCrumb */}
 
           <MenuToggler />
           {/* Collapsible sidebar button */}
@@ -41,11 +40,10 @@ const index = () => {
               <div className="ls-widget">
                 <div className="tabs-box">
                   <div className="widget-title">
-                    <h4>Post Job</h4>
+                    <h4>Добавить одежду</h4>
                   </div>
 
                   <div className="widget-content">
-                    <PostJobSteps />
                     {/* End job steps form */}
                     <PostBoxForm />
                     {/* End post box form */}
