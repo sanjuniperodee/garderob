@@ -222,7 +222,7 @@ module.exports = [
   },
   {
     id: 8,
-    logo: "/images/IMG_2108.jpg",
+    logo: "/images/clients/IMG_2108.jpg",
     jobTitle: "Образ для работы 2\n",
     location: "Алматы, Розыбакиева 157/a",
     time: "11 часов назад",
@@ -253,7 +253,7 @@ module.exports = [
     tag: "app",
   },{
     id: 9,
-    logo: "/images/IMG_2109.jpg",
+    logo: "/images/clients/IMG_2109.jpg",
     jobTitle: "Светлый образ\n",
     location: "Алматы, Розыбакиева 157/a",
     time: "11 часов назад",
@@ -284,7 +284,7 @@ module.exports = [
     tag: "app",
   },{
     id: 10,
-    logo: "/images/IMG_2090.jpg",
+    logo: "/images/clients/IMG_2090.jpg",
     jobTitle: "Casual\n",
     location: "Алматы, Розыбакиева 157/a",
     time: "11 часов назад",
@@ -315,7 +315,7 @@ module.exports = [
     tag: "app",
   },{
     id: 11,
-    logo: "/images/IMG_2091.jpg",
+    logo: "/images/clients/IMG_2091.jpg",
     jobTitle: "Casual 2\n",
     location: "Алматы, Розыбакиева 157/a",
     time: "11 часов назад",
