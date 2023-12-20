@@ -16,20 +16,20 @@ const index = ({ footerStyle = "" }) => {
                     <Image
                       width={154}
                       height={50}
-                      src="/images/logo.svg"
+                      src="/images/logo.webp"
                       alt="brand"
                     />
                   </a>
                 </div>
                 <p className="phone-num">
-                  <span>Call us </span>
+                  <span>Связаться с нами</span>
                   <a href="thebeehost@support.com">123 456 7890</a>
                 </p>
                 <p className="address">
                   329 Queensberry Street, North Melbourne VIC
-                  <br /> 3051, Australia. <br />
+                  <br /> 3051, Almaty. <br />
                   <a href="mailto:support@superio.com" className="email">
-                    support@superio.com
+                    support@garderobe.com
                   </a>
                 </p>
               </div>
@@ -38,7 +38,7 @@ const index = ({ footerStyle = "" }) => {
 
             <div className="big-column col-xl-8 col-lg-9 col-md-12">
               <div className="row">
-                <FooterContent />
+                {/*<FooterContent />*/}
               </div>
             </div>
             {/* End col-xl-8 */}
