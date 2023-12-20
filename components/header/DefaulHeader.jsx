@@ -38,7 +38,7 @@ const DefaulHeader = () => {
                 <Image
                   width={154}
                   height={50}
-                  src="/images/logo.svg"
+                  src="/images/logo.webp"
                   alt="brand"
                 />
               </Link>
