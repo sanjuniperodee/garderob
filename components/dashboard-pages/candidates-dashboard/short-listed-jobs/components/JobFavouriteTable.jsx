@@ -36,7 +36,7 @@ const JobFavouriteTable = () => {
               </thead>
 
               <tbody>
-                {jobs.slice(4, 8).map((item) => (
+                {jobs.slice(4, 12).map((item) => (
                   <tr key={item.id}>
                     <td>
                       {/* <!-- Job Block --> */}

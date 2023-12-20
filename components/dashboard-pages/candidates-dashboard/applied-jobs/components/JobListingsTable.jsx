@@ -36,7 +36,7 @@ const JobListingsTable = () => {
               </thead>
 
               <tbody>
-                {jobs.slice(0, 4).map((item) => (
+                {jobs.slice(0, 5).map((item) => (
                   <tr key={item.id}>
                     <td>
                       {/* <!-- Job Block --> */}
