@@ -29,29 +29,29 @@ const index = () => {
       <Hero1 />
       {/* End Hero Section */}
 
-      <section className="job-categories ui-job-categories">
-        <div className="auto-container">
-          <div className="sec-title text-center">
-            <h2>Популярные категории</h2>
-            {/*<div className="text">2020 jobs live - 293 added today.</div>*/}
-          </div>
+      {/*<section className="job-categories ui-job-categories">*/}
+      {/*  <div className="auto-container">*/}
+      {/*    <div className="sec-title text-center">*/}
+      {/*      <h2>Популярные категории</h2>*/}
+      {/*      /!*<div className="text">2020 jobs live - 293 added today.</div>*!/*/}
+      {/*    </div>*/}
 
-          <div
-            className="row "
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-          >
-            {/* <!-- Category Block --> */}
-            <JobCategorie1 />
-          </div>
-        </div>
-      </section>
+      {/*    <div*/}
+      {/*      className="row "*/}
+      {/*      data-aos="fade-up"*/}
+      {/*      data-aos-anchor-placement="top-bottom"*/}
+      {/*    >*/}
+      {/*      /!* <!-- Category Block --> *!/*/}
+      {/*      <JobCategorie1 />*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
       {/* End Job Categorie Section */}
 
       <section className="job-section">
         <div className="auto-container">
           <div className="sec-title text-center">
-            <h2>Популярные публикации</h2>
+            <h2>Моя одежда</h2>
             {/*<div className="text">*/}
             {/*  Know your worth and find the job that qualify your life*/}
             {/*</div>*/}

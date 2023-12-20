@@ -36,33 +36,33 @@ const Index = () => {
       
         <Sidebar>
           <Menu>
-            {mobileMenuData.map((item) => (
-              <SubMenu
-                className={
-                  isActiveParentChaild(item.items, usePathname())
-                    ? "menu-active"
-                    : ""
-                }
-                label={item.label}
-                key={item.id}
-              >
-                {item.items.map((menuItem, i) => (
-                  <MenuItem
+            {/*{mobileMenuData.map((item) => (*/}
+            {/*  <SubMenu*/}
+            {/*    className={*/}
+            {/*      isActiveParentChaild(item.items, usePathname())*/}
+            {/*        ? "menu-active"*/}
+            {/*        : ""*/}
+            {/*    }*/}
+            {/*    label={item.label}*/}
+            {/*    key={item.id}*/}
+            {/*  >*/}
+            {/*    {item.items.map((menuItem, i) => (*/}
+            {/*      <MenuItem*/}
 
-                  onClick={()=>router.push(menuItem.routePath)}
-                    className={
-                      isActiveLink(menuItem.routePath, usePathname())
-                        ? "menu-active-link"
-                        : ""
-                    }
-                    key={i}
-                    // routerLink={<Link href={menuItem.routePath} />}
-                  >
-                    {menuItem.name}
-                  </MenuItem>
-                ))}
-              </SubMenu>
-            ))}
+            {/*      onClick={()=>router.push(menuItem.routePath)}*/}
+            {/*        className={*/}
+            {/*          isActiveLink(menuItem.routePath, usePathname())*/}
+            {/*            ? "menu-active-link"*/}
+            {/*            : ""*/}
+            {/*        }*/}
+            {/*        key={i}*/}
+            {/*        // routerLink={<Link href={menuItem.routePath} />}*/}
+            {/*      >*/}
+            {/*        {menuItem.name}*/}
+            {/*      </MenuItem>*/}
+            {/*    ))}*/}
+            {/*  </SubMenu>*/}
+            {/*))}*/}
           </Menu>
         </Sidebar>
 

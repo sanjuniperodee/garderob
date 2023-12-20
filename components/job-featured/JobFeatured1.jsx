@@ -23,14 +23,14 @@ const JobFeatured1 = () => {
 
               <ul className="job-info">
                 {/* compnay info */}
-                <li>
-                  <span className="icon flaticon-map-locator"></span>
-                  {item.location}
-                </li>
+                {/*<li>*/}
+                {/*  <span className="icon flaticon-map-locator"></span>*/}
+                {/*  {item.location}*/}
+                {/*</li>*/}
                 {/* location info */}
-                <li>
-                  <span className="icon flaticon-clock-3"></span> {item.time}
-                </li>
+                {/*<li>*/}
+                {/*  <span className="icon flaticon-clock-3"></span> {item.time}*/}
+                {/*</li>*/}
                 {/* time info */}
                 <li>
                   <span className="icon flaticon-money"></span> {item.salary}

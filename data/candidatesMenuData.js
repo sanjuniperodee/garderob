@@ -28,6 +28,13 @@ module.exports = [
     active: "",
   },
   {
+    id: 6,
+    name: "Рекомендации от ИИ",
+    icon: "la-bookmark-o",
+    routePath: "/candidates-dashboard/obrazy",
+    active: "",
+  },
+  {
     id: 9,
     name: "Чаты",
     icon: "la-comment-o",

@@ -18,7 +18,7 @@ const JobFeatured8 = () => {
 
               <div className="inner-content">
                 <h4>
-                  <Link href={`/job-single-v3/${item.id}`}>
+                  <Link href={`/job-single-v1/${item.id}`}>
                     {item.jobTitle}
                   </Link>
                 </h4>

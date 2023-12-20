@@ -15,15 +15,16 @@ const index = () => {
             >
               <div className="title-box">
                 <h3>
-                  Тут более <span className="colored">10 тысяч</span> пользователей продают одежду
-                  <br /> и подбирают образы на каждый день!
+                  Тут более <span className="colored">10 тысяч</span> подбирают образы каждый день!
+                  <br /> Присоеденись к нам и будь на стиле!
                 </h3>
+
               </div>
 
               {/* <!-- Job Search Form --> */}
-              <div className="job-search-form">
-                <SearchForm />
-              </div>
+              {/*<div className="job-search-form">*/}
+              {/*  <SearchForm />*/}
+              {/*</div>*/}
               {/* <!-- Job Search Form --> */}
 
               {/* <!-- Popular Search --> */}

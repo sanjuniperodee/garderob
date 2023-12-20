@@ -6,7 +6,7 @@ const JobListingsTable = () => {
   return (
     <div className="tabs-box">
       <div className="widget-title">
-        <h4>My Applied Jobs</h4>
+        <h4>Мой гардероб</h4>
 
         <div className="chosen-outer">
           {/* <!--Tabs Box--> */}
@@ -28,10 +28,10 @@ const JobListingsTable = () => {
             <table className="default-table manage-job-table">
               <thead>
                 <tr>
-                  <th>Job Title</th>
-                  <th>Date Applied</th>
-                  <th>Status</th>
-                  <th>Action</th>
+                  <th>Название/Фотография</th>
+                  <th>Дата добавления</th>
+                  <th>Статус</th>
+                  <th>Дейстив</th>
                 </tr>
               </thead>
 

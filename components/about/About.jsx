@@ -7,7 +7,7 @@ const About = () => {
       <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
         <div className="inner-column " data-aos="fade-left">
           <div className="sec-title">
-            <h2>Тысяча пользователей продают свою одежду в хорошем качестве</h2>
+            <h2>Тысяча пользователей здесь подбирают образы на каждый день</h2>
             <div className="text">
               Если вам вещь не подходит по размеру, разонравился цвет или еще что-то, не спешите ее выкидывать.
               С помощью нашего сайта вы быстро избавитесь от вещи и еще заработаете
@@ -16,10 +16,10 @@ const About = () => {
           <ul className="list-style-one">
             <li>Сфоткайте одежду с разных ракурсов</li>
             <li>Дайте ей дополнительное описание</li>
-            <li>Отправьте на проверку и получайте заявки</li>
+            <li>Добавляйте в свои образы</li>
           </ul>
           <Link href="/register" className="theme-btn btn-style-one bg-blue">
-            <span className="btn-title">Начать продавать</span>
+            <span className="btn-title">Начать создавать образы</span>
           </Link>
         </div>
       </div>

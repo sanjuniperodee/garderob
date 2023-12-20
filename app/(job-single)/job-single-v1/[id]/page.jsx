@@ -95,16 +95,16 @@ const JobSingleDynamicV1 = ({ params }) => {
                     <Image
                         width={845}
                         height={348}
-                        src="/images/resource/job-post-img.jpg"
+                        src={company.logo}
                         alt="resource"
                     />
                   </figure>
                   <JobDetailsDescriptions />
-                  {/* End jobdetails content */}
+                   End jobdetails content
 
                   <div className="other-options">
                     <div className="social-share">
-                      <h5>Share this job</h5>
+                      <h5>Поделиться</h5>
                       <SocialTwo />
                     </div>
                   </div>
@@ -112,10 +112,7 @@ const JobSingleDynamicV1 = ({ params }) => {
 
                   <div className="related-jobs">
                     <div className="title-box">
-                      <h3>Related Jobs</h3>
-                      <div className="text">
-                        2020 jobs live - 293 added today.
-                      </div>
+                      <h3>Похожие вещи</h3>
                     </div>
                     {/* End title box */}
 
@@ -125,123 +122,123 @@ const JobSingleDynamicV1 = ({ params }) => {
                 </div>
                 {/* End .content-column */}
 
-                <div className="sidebar-column col-lg-4 col-md-12 col-sm-12">
-                  <aside className="sidebar">
-                    <div className="btn-box">
-                      <a
-                          href="#"
-                          className="theme-btn btn-style-one"
-                          data-bs-toggle="modal"
-                          data-bs-target="#applyJobModal"
-                      >
-                        Apply For Job
-                      </a>
-                      <button className="bookmark-btn">
-                        <i className="flaticon-bookmark"></i>
-                      </button>
-                    </div>
-                    {/* End apply for job btn */}
+                {/*<div className="sidebar-column col-lg-4 col-md-12 col-sm-12">*/}
+                {/*  <aside className="sidebar">*/}
+                {/*    <div className="btn-box">*/}
+                {/*      <a*/}
+                {/*          href="#"*/}
+                {/*          className="theme-btn btn-style-one"*/}
+                {/*          data-bs-toggle="modal"*/}
+                {/*          data-bs-target="#applyJobModal"*/}
+                {/*      >*/}
+                {/*        Apply For Job*/}
+                {/*      </a>*/}
+                {/*      <button className="bookmark-btn">*/}
+                {/*        <i className="flaticon-bookmark"></i>*/}
+                {/*      </button>*/}
+                {/*    </div>*/}
+                {/*    /!* End apply for job btn *!/*/}
 
-                    {/* <!-- Modal --> */}
-                    <div
-                        className="modal fade"
-                        id="applyJobModal"
-                        tabIndex="-1"
-                        aria-hidden="true"
-                    >
-                      <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div className="apply-modal-content modal-content">
-                          <div className="text-center">
-                            <h3 className="title">Apply for this job</h3>
-                            <button
-                                type="button"
-                                className="closed-modal"
-                                data-bs-dismiss="modal"
-                                aria-label="Close"
-                            ></button>
-                          </div>
-                          {/* End modal-header */}
+                {/*    /!* <!-- Modal --> *!/*/}
+                {/*    <div*/}
+                {/*        className="modal fade"*/}
+                {/*        id="applyJobModal"*/}
+                {/*        tabIndex="-1"*/}
+                {/*        aria-hidden="true"*/}
+                {/*    >*/}
+                {/*      <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">*/}
+                {/*        <div className="apply-modal-content modal-content">*/}
+                {/*          <div className="text-center">*/}
+                {/*            <h3 className="title">Apply for this job</h3>*/}
+                {/*            <button*/}
+                {/*                type="button"*/}
+                {/*                className="closed-modal"*/}
+                {/*                data-bs-dismiss="modal"*/}
+                {/*                aria-label="Close"*/}
+                {/*            ></button>*/}
+                {/*          </div>*/}
+                {/*          /!* End modal-header *!/*/}
 
-                          <ApplyJobModalContent />
-                          {/* End PrivateMessageBox */}
-                        </div>
-                        {/* End .send-private-message-wrapper */}
-                      </div>
-                    </div>
-                    {/* End .modal */}
+                {/*          <ApplyJobModalContent />*/}
+                {/*          /!* End PrivateMessageBox *!/*/}
+                {/*        </div>*/}
+                {/*        /!* End .send-private-message-wrapper *!/*/}
+                {/*      </div>*/}
+                {/*    </div>*/}
+                {/*    /!* End .modal *!/*/}
 
-                    <div className="sidebar-widget">
-                      {/* <!-- Job Overview --> */}
-                      <h4 className="widget-title">Job Overview</h4>
-                      <JobOverView />
+                {/*    <div className="sidebar-widget">*/}
+                {/*      /!* <!-- Job Overview --> *!/*/}
+                {/*      /!*<h4 className="widget-title">Job Overview</h4>*!/*/}
+                {/*      /!*<JobOverView />*!/*/}
 
-                      {/* <!-- Map Widget --> */}
-                      <h4 className="widget-title">Job Location</h4>
-                      <div className="widget-content">
-                        <div className="map-outer">
-                          <div style={{ height: "300px", width: "100%" }}>
-                            <MapJobFinder />
-                          </div>
-                        </div>
-                      </div>
-                      {/* <!--  Map Widget --> */}
+                {/*      /!* <!-- Map Widget --> *!/*/}
+                {/*      /!*<h4 className="widget-title">Job Location</h4>*!/*/}
+                {/*      /!*<div className="widget-content">*!/*/}
+                {/*      /!*  <div className="map-outer">*!/*/}
+                {/*      /!*    <div style={{ height: "300px", width: "100%" }}>*!/*/}
+                {/*      /!*      <MapJobFinder />*!/*/}
+                {/*      /!*    </div>*!/*/}
+                {/*      /!*  </div>*!/*/}
+                {/*      /!*</div>*!/*/}
+                {/*      /!* <!--  Map Widget --> *!/*/}
 
-                      <h4 className="widget-title">Job Skills</h4>
-                      <div className="widget-content">
-                        <JobSkills />
-                      </div>
-                      {/* <!-- Job Skills --> */}
-                    </div>
-                    {/* End .sidebar-widget */}
+                {/*      /!*<h4 className="widget-title">Job Skills</h4>*!/*/}
+                {/*      /!*<div className="widget-content">*!/*/}
+                {/*      /!*  <JobSkills />*!/*/}
+                {/*      /!*</div>*!/*/}
+                {/*      /!* <!-- Job Skills --> *!/*/}
+                {/*    </div>*/}
+                {/*    /!* End .sidebar-widget *!/*/}
 
-                    <div className="sidebar-widget company-widget">
-                      <div className="widget-content">
-                        <div className="company-title">
-                          <div className="company-logo">
-                            <Image
-                                width={54}
-                                height={53}
-                                src={company.logo}
-                                alt="resource"
-                            />
-                          </div>
-                          <h5 className="company-name">{company.company}</h5>
-                          <a href="#" className="profile-link">
-                            View company profile
-                          </a>
-                        </div>
-                        {/* End company title */}
+                {/*    /!*<div className="sidebar-widget company-widget">*!/*/}
+                {/*    /!*  <div className="widget-content">*!/*/}
+                {/*    /!*    <div className="company-title">*!/*/}
+                {/*    /!*      <div className="company-logo">*!/*/}
+                {/*    /!*        <Image*!/*/}
+                {/*    /!*            width={54}*!/*/}
+                {/*    /!*            height={53}*!/*/}
+                {/*    /!*            src={company.logo}*!/*/}
+                {/*    /!*            alt="resource"*!/*/}
+                {/*    /!*        />*!/*/}
+                {/*    /!*      </div>*!/*/}
+                {/*    /!*      <h5 className="company-name">{company.company}</h5>*!/*/}
+                {/*    /!*      <a href="#" className="profile-link">*!/*/}
+                {/*    /!*        View company profile*!/*/}
+                {/*    /!*      </a>*!/*/}
+                {/*    /!*    </div>*!/*/}
+                {/*    /!*    /!* End company title *!/*!/*/}
 
-                        <CompanyInfo />
+                {/*    /!*    <CompanyInfo />*!/*/}
 
-                        <div className="btn-box">
-                          <a
-                              href={company?.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="theme-btn btn-style-three"
-                          >
-                            {company?.link}
-                          </a>
-                        </div>
-                        {/* End btn-box */}
-                      </div>
-                    </div>
-                    {/* End .company-widget */}
+                {/*    /!*    <div className="btn-box">*!/*/}
+                {/*    /!*      <a*!/*/}
+                {/*    /!*          href={company?.link}*!/*/}
+                {/*    /!*          target="_blank"*!/*/}
+                {/*    /!*          rel="noopener noreferrer"*!/*/}
+                {/*    /!*          className="theme-btn btn-style-three"*!/*/}
+                {/*    /!*      >*!/*/}
+                {/*    /!*        {company?.link}*!/*/}
+                {/*    /!*      </a>*!/*/}
+                {/*    /!*    </div>*!/*/}
+                {/*    /!*    /!* End btn-box *!/*!/*/}
+                {/*    /!*  </div>*!/*/}
+                {/*    /!*</div>*!/*/}
+                {/*    /!* End .company-widget *!/*/}
 
-                    <div className="sidebar-widget contact-widget">
-                      <h4 className="widget-title">Contact Us</h4>
-                      <div className="widget-content">
-                        <div className="default-form">
-                          <Contact />
-                        </div>
-                        {/* End .default-form */}
-                      </div>
-                    </div>
-                    {/* End contact-widget */}
-                  </aside>
-                  {/* End .sidebar */}
-                </div>
+                {/*    /!*<div className="sidebar-widget contact-widget">*!/*/}
+                {/*    /!*  <h4 className="widget-title">Contact Us</h4>*!/*/}
+                {/*    /!*  <div className="widget-content">*!/*/}
+                {/*    /!*    <div className="default-form">*!/*/}
+                {/*    /!*      <Contact />*!/*/}
+                {/*    /!*    </div>*!/*/}
+                {/*    /!*    /!* End .default-form *!/*!/*/}
+                {/*    /!*  </div>*!/*/}
+                {/*    /!*</div>*!/*/}
+                {/*    /!* End contact-widget *!/*/}
+                {/*  </aside>*/}
+                {/*  /!* End .sidebar *!/*/}
+                {/*</div>*/}
                 {/* End .sidebar-column */}
               </div>
             </div>

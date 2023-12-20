@@ -8,15 +8,16 @@ const SidebarFooter = () => {
 
   return (
     <div className="mm-add-listing mm-listitem pro-footer">
-      <a href="#" className="theme-btn btn-style-one mm-listitem__text">
-        Job Post
+      <a               href="/candidates-dashboard/applied-jobs"
+                       className="theme-btn btn-style-one mm-listitem__text">
+        Создать образы
       </a>
       {/* job post btn */}
 
       <div className="mm-listitem__text">
         <div className="contact-info">
           <span className="phone-num">
-            <span>Call us</span>
+            <span>Свяжитесь с нами</span>
             <a href="tel:1234567890">123 456 7890</a>
           </span>
           <span className="address">
@@ -24,7 +25,7 @@ const SidebarFooter = () => {
             3051, Australia.
           </span>
           <a href="mailto:support@superio.com" className="email">
-            support@superio.com
+            support@garderobe.com
           </a>
         </div>
         {/* End .contact-info */}
